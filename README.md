@@ -6,9 +6,11 @@ This project, titled **"An AI-NLP based Interactive Chatbot Model for Patient Pr
 
 Diabetes is a prevalent health issue, especially in Bangladesh, putting strain on healthcare resources. This project introduces a comprehensive solution integrating a chatbot and sensors to aid in diabetes patient pre-screening. The chatbot interacts with patients to gather essential data like lifestyle, symptoms, and medical history, while sensors measure vital signs such as body temperature, heart rate, and oxygen levels. The collected data is displayed in a user-friendly format for healthcare providers, facilitating quicker and more informed consultations.
 
-![System Box](./Images2/box.jpeg)
-![Speaking image](./Images2/speaking.jpeg)
-![Listenning image](./Images2/listenning.jpeg)
+<p align="center">
+  <img src="./Images2/box.jpeg" alt="System Box" height="150" width="150"/>
+  <img src="./Images2/speaking.jpeg" alt="Speaking Image" height="150" width="150"/>
+  <img src="./Images2/listenning.jpeg" alt="Listening Image" height="150" width="150"/>
+</p>
 
 ## 🛠️ Features
 
