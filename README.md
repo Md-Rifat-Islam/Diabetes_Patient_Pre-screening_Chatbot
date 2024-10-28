@@ -30,12 +30,6 @@ Diabetes is a prevalent health issue, especially in Bangladesh, putting strain o
 - Flask (optional, for web-based deployment)
 - Raspberry Pi with necessary sensor modules (DS18B20, MAX30100)
 
-Install dependencies with:
-
-```bash
-pip install -r requirements.txt
-
-
 ## 📂 Project Structure
 
 - **`chatbot.py`**: Main chatbot logic and conversation handling.
@@ -68,14 +62,6 @@ pip install -r requirements.txt
 ```bash
 python chatbot.py
 ```
-
-### (Optional) Run with Flask for a web interface:
-
-```bash
-flask run
-```
-
-Access the chatbot on `http://localhost:5000` if using Flask.
 
 ---
 
