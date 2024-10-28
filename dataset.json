@@ -1,0 +1,60 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "hello",
+                "hey",
+                "hi",
+                "what's up",
+                "how is it going"
+            ],
+            "responses": [
+                "Hi. Can you please provide your name"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "name",
+                "my name is"
+            ],
+            "responses": [
+                "Please provide your age"
+            ]
+        },
+        {
+            "tag": "inquire_problem",
+            "patterns": [
+                "age",
+                "my age is"
+            ],
+            "responses": [
+                "What problem you are facing?"
+            ]
+        },
+        {
+            "tag": "medication",
+            "patterns": [
+                "i have diabetes",
+                "i am facing diabetes",
+                "i have high blood sugar",
+                "i have low blood sugar"
+            ],
+            "responses": [
+                "Do you take any medications?"
+            ]
+        },
+        {
+            "tag": "",
+            "patterns": [
+                "no i do not take any medication",
+                "yes i take",
+                "yes i take pills"
+            ],
+            "responses": [
+                "okay. Thank you for your cooperation. You will be contacted by a doctor soon."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,348 @@
+{
+        "intents": [
+                {
+                        "tag": "greeting",
+                        "patterns": [
+                                "Hi",
+                                "How are you",
+                                "Is anyone there?",
+                                "Hello",
+                                "Good day",
+                                "Whats up"
+                        ],
+                        "responses": [
+                                "Hello!",
+                                "Good to see you again!",
+                                "Hi there, how can I help?"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "goodbye",
+                        "patterns": [
+                                "cya",
+                                "See you later",
+                                "Goodbye",
+                                "I am Leaving",
+                                "Have a Good day"
+                        ],
+                        "responses": [
+                                "Sad to see you go :(",
+                                "Talk to you later",
+                                "Goodbye!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "age",
+                        "patterns": [
+                                "how old",
+                                "how old is Banglafire",
+                                "what is your age",
+                                "how old are you",
+                                "age?"
+                        ],
+                        "responses": [
+                                "I am 10 years old!",
+                                "10 years young!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "name",
+                        "patterns": [
+                                "what is your name",
+                                "what should I call you",
+                                "whats your name?"
+                        ],
+                        "responses": [
+                                "You can call me Banglafire Chatbot.",
+                                "I'm Banglafire Chatbot!",
+                                "I'm BC aka Banglafire Chatbot."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "hours",
+                        "patterns": [
+                                "when are you guys open",
+                                "what are your hours",
+                                "hours of operation"
+                        ],
+                        "responses": [
+                                "We are open 7am-4pm Monday-Friday!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "single_sms",
+                        "patterns": [
+                                "How to send a single SMS?"
+                        ],
+                        "responses": [
+                                "Type your sending mobile number, Name & short message then click send button."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "sms_template",
+                        "patterns": [
+                                "How to manage SMS template?"
+                        ],
+                        "responses": [
+                                "Type title, message & description then chose active & Save."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "bulk_sms",
+                        "patterns": [
+                                "How to send bulk SMS?"
+                        ],
+                        "responses": [
+                                "Choose academic year, class, section, shift, version, & to whom to send SMS select them, after required field select to chose SMS template, sender name. If there is no template, enter the message type, then search & click on id after drag & drop SMS sending table & send."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "sms_group",
+                        "patterns": [
+                                "How to manage SMS group ?"
+                        ],
+                        "responses": [
+                                "After create a group then click on +icon, then choose required option & load. Available user select all after drag & drop Assigned user to Assign group."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "allocation_history",
+                        "patterns": [
+                                "How to see SMS allocation history?"
+                        ],
+                        "responses": [
+                                "Choose report type with short date & end date then allocation history report."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "delivery_history",
+                        "patterns": [
+                                "How to see SMS delivery history?"
+                        ],
+                        "responses": [
+                                "Choose send date/From & send date To. If sms failed click on send fail & search."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "broadcastsms",
+                        "patterns": [
+                                "How to send SMS all Student's?"
+                        ],
+                        "responses": [
+                                "If SMS template exist then select SMS template & sender name. If dose not exist SMS template then type sender Name & message & Send SMS."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "sms_info",
+                        "patterns": [
+                                "what is SMS"
+                        ],
+                        "responses": [
+                                "Short Message Service"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "sms_template",
+                        "patterns": [
+                                "give sms template"
+                        ],
+                        "responses": [
+                                "For Ease of sending messages to multiple customers with similar content, you can make use of an SMS template. Templates define the structure and content of the message where some of it is predetermined while some content can be added while sending the message. Defining an SMS template."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "bulk_sms",
+                        "patterns": [
+                                "what is Bulk SMS"
+                        ],
+                        "responses": [
+                                "Bulk SMS simply means sending a large volume or quantity of SMS or Short Message Service or Text Messages at a time. ... One difference between sending regular text messages from your phone and bulk SMS is sent from the internet using a reliable bulk sms gateway."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "sms_group_info",
+                        "patterns": [
+                                "what is SMS Group"
+                        ],
+                        "responses": [
+                                "Group Messaging is characterized by an SMS conversation among 3 or more recipients at the same time. This is a many-to-many exchange of messages. Group messaging is typically sent as MMS messages."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "fees_collection_info",
+                        "patterns": [
+                                "how to do Fees Collection"
+                        ],
+                        "responses": [
+                                "Online fee payment gateway like mobile banking & Bank payment."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "fees_head",
+                        "patterns": [
+                                "how to Create fees head"
+                        ],
+                        "responses": [
+                                "Go-to manage fees head. Click add new fees head, after write fees head name & serial then click save button."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "manual_fees_collection",
+                        "patterns": [
+                                "How to collect fees manually?"
+                        ],
+                        "responses": [
+                                "Login your account first, then go to fees management sub-module (Fess Collection).Type your student id after chose collection date & installment then click action button."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "fees_collection_report",
+                        "patterns": [
+                                "how to from Fees Collection Report"
+                        ],
+                        "responses": [
+                                "Go to Fees report then chose what type of report before click show report."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "fees_installment_creation",
+                        "patterns": [
+                                "How to create fees installment?"
+                        ],
+                        "responses": [
+                                "Goto Fees Collection, then click manage fees installment and finaly click add new installment chose mandatory field and click save button."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "installment_amount_setup",
+                        "patterns": [
+                                "How to setup Fees installment amount"
+                        ],
+                        "responses": [
+                                "Goto manage fees installment click installment month head icon(Middle white button) and set the amount headwise & click save button."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "student_head_setup",
+                        "patterns": [
+                                "How to setup Student Head"
+                        ],
+                        "responses": [
+                                "Any student fees amount increase/decrease then click student head setup.After head setup click add new type student & chose installment then load data. After data load put the value add/discard then save."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "add_fee",
+                        "patterns": [
+                                "How to add half/Full free?"
+                        ],
+                        "responses": [
+                                "Goto fees management click full/half free student.Clck add new type student code  & select academic year, half/full free also for all installment/head then click save button."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "bulk_fees",
+                        "patterns": [
+                                "How to generate bulk fees invoice?"
+                        ],
+                        "responses": [
+                                "Click bulk fees invoice, then chose academic year,class,secton,installment. All required field select after click view button."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "mark_entry",
+                        "patterns": [
+                                "What is mark entry?"
+                        ],
+                        "responses": [
+                                "Mark entry most important part of generate Report card."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "mark_input",
+                        "patterns": [
+                                "How to input mark in software ?"
+                        ],
+                        "responses": [
+                                "Click Academic Panel, Click Result Processing, Click Management Student Mark, Chose Academic Year, Version, Class, Shift, Section, Exam, Course, Click & Input mark Student Roll / Id wise after Save."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "result_processing",
+                        "patterns": [
+                                "How to do Result Processing ?"
+                        ],
+                        "responses": [
+                                "Click on Academic Module, Click Result Processing, Process Result, Chose Academic Year, Version, Class, Shift, Section, Exam, Process Result & View Result."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "sms_result",
+                        "patterns": [
+                                "How to sent result by sms?"
+                        ],
+                        "responses": [
+                                "Go to view view result, after result view then click print report card/ sent result by sms."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "tabsheet",
+                        "patterns": [
+                                "How to generate tabsheet?"
+                        ],
+                        "responses": [
+                                "After result view then click tabulation sheet."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "download_report_card",
+                        "patterns": [
+                                "How to print/ download report card?"
+                        ],
+                        "responses": [
+                                "After result view then click print reprt card/ sent result by sms. If you download/ print report card single or muliple report card its also here."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "show_result",
+                        "patterns": [
+                                "How to show result at a glance?"
+                        ],
+                        "responses": [
+                                "Click academic Panel, Click Result Processing, then click result at a glance & chose all drop down selection & view."
+                        ],
+                        "context_set": ""
+                }
+        ]
+}
